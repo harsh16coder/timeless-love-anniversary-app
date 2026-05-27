@@ -379,7 +379,7 @@ export default function Anniversary() {
             <h2 className="font-display text-3xl">Memory Gallery</h2>
           </div>
           <p className="mt-3 text-slate-600">
-            Drag the polaroids. Long press to hear a hidden note.
+            
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {config.photos.map((photo, index) => (
