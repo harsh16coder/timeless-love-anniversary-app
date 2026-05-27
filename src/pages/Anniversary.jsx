@@ -511,7 +511,7 @@ export default function Anniversary() {
       </section>
 
       <footer className="px-6 py-10 text-center text-sm text-slate-500 sm:px-10">
-        Crafted By Navaneeth. ❤
+        Made with Love by your shonuuuu. ❤
       </footer>
     </div>
   );
