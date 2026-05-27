@@ -26,9 +26,9 @@
     },
     {
       "title": "First Fight",
-      "date": "2025-11-25",
+      "date": "2028-09-24",
       "emoji": "😅",
-      "description": "We learned how to choose each other again."
+      "description": "Maybe on this date?"
     },
     {
       "title": "Today",
