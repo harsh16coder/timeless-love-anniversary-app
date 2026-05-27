@@ -22,13 +22,13 @@
       "title": "First Trip",
       "date": "2026-04-12",
       "emoji": "🌍",
-      "description": "Making sure gods are with us"
+      "description": "Making sure gods are with us (Akshardham)"
     },
     {
       "title": "First Fight",
-      "date": "2028-09-24",
+      "date": "2025-11-25",
       "emoji": "😅",
-      "description": "Maybe on this date?"
+      "description": "We learned how to choose each other again."
     },
     {
       "title": "Today",
@@ -54,7 +54,7 @@
     },
     {
       "src": "https://res.cloudinary.com/degstwskz/image/upload/v1779874533/z7c5q7pfgdytwmky0ipl.jpg",
-      "caption": "She is still laughing"
+      "caption": "She is still smiling"
     },
     {
       "src": "https://res.cloudinary.com/degstwskz/image/upload/v1779874559/yui9btjhhhmrcmowbub3.jpg",
@@ -75,6 +75,10 @@
     {
       "src": "https://res.cloudinary.com/degstwskz/image/upload/v1779874704/uawnz5gsh0jgj6wbbfge.jpg",
       "caption": "Magic"
+    },
+    {
+      "src": "https://res.cloudinary.com/degstwskz/image/upload/v1779886962/p4h6qi0jcfkhzlsfxvc1.jpg",
+      "caption": "Kind of launch among our close fam"
     }
   ],
   "promises": [
