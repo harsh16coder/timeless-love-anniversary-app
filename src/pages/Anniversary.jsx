@@ -48,8 +48,31 @@ function useTimeTogether(startDate) {
 export default function Anniversary() {
   const location = useLocation();
   const searchParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
-  const sharedConfig = useMemo(() => decodeConfig(searchParams.get("data")), [searchParams]);
+  const sharedConfig = useMemo(() => {
+    const encoded = searchParams.get("data");
+    if (encoded) {
+      const decoded = decodeConfig(encoded);
+      if (decoded) {
+        console.log("✅ Loaded shared config from URL");
+        return decoded;
+      } else {
+        console.error("❌ Failed to decode shared config from URL:", encoded);
+      }
+    }
+    return null;
+  }, [searchParams]);
   const config = sharedConfig ?? loadConfig() ?? defaultConfig;
+  
+  // Log which config source is being used
+  useEffect(() => {
+    if (sharedConfig) {
+      console.log("Using shared config from URL");
+    } else if (loadConfig()) {
+      console.log("Using saved config from localStorage");
+    } else {
+      console.log("Using default config (Romeo & Juliet)");
+    }
+  }, [sharedConfig]);
   const [started, setStarted] = useState(false);
   const [letterMode, setLetterMode] = useState(config.letterMode);
   const [secretOpen, setSecretOpen] = useState(false);
